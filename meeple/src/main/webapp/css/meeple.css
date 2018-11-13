@@ -1,0 +1,80 @@
+body {
+	width: 100%;
+	background-color: #212121;
+	font-family: Georgia, serif;
+		sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header {
+	background-color: #000000;
+	color: black;
+	height: fit-content;
+}
+
+section {
+	clear: both;
+	display: block;
+	width: 80%;
+	margin: 20px auto;
+	vertical-align: top;
+	text-align: center;
+	min-height: 450px;
+	background-color: #FFF;
+	border-radius: 7px;
+	position: relative;
+}
+
+#timeLimit {
+	font-size: 128px;
+	color: red;
+	font-family: Impact, Charcoal, sans-serif;
+}
+
+.countdown {
+	border: 1px solid black;
+    width: 80%;
+    background-color: darkgray;
+    display: inline-block;
+    margin-top: 45px;
+}
+
+.game-setup {
+	padding-top: 20px; 
+	font-size: 32px; 
+	display: inline-block;">
+}
+
+select {
+	font-size: 24px;
+}
+
+.flex-container {
+	display: flex;
+	flex-flow: row wrap;
+	padding: 10px;
+	justify-content: center;
+}
+
+.player-info {
+	padding: 20px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+button {
+	display: inline-block;
+	padding: 10px;
+	font-size: 16px;
+	margin: 5px;
+	color: red;
+	font-weight: bolder;
+	border-radius: 10px;
+	background-color: darkgrey;
+	font-family: Georgia, serif;
+}
